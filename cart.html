@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+  </head>
+  <body>
+ 
+    <nav
+      class="flex justify-between flex-col md:flex-row items-center px-10 py-4 bg-white shadow"
+    >
+      <h1 class="text-xl font-bold">MyLogo</h1>
+      <div
+        class="space-x-6 flex justify-between flex-col items-center md:flex-row"
+      >
+        <a href="#" class="hover:underline hover:border rounded-md px-3 py-2"
+          >Home</a
+        >
+        <a href="#" class="hover:underline hover:border rounded-md px-3 py-2"
+          >About</a
+        >
+        <a href="#" class="hover:underline hover:border rounded-md px-3 py-2"
+          >Contact</a
+        >
+      </div>
+    </nav>
+    <h1 class="font-bold text-blue-200 text-center text-3xl mt-10">
+      Our <span class="text-gray-500">Product</span>
+    </h1>
+    <div class="flex justify-center items-center h-auto mt-10">
+      <div class="gap-4 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
+        <div class="border rounded-xl shadow-lg p-4 bg-red-50 w-64 max-w-sm">
+          <div class="text-center mb-4">
+            <h1 class="font-bold text-3xl text-pink-500">Your Cart</h1>
+          </div>
+
+          <div class="flex flex-col items-start">
+            <img
+              src="image.jpg"
+              alt="banana"
+              class="w-full h-24 object-cover mb-3"
+            />
+            <div class="flex justify-evenly gap-12 text-center">
+              <div>
+                <h1 class="font-semibold text-lg">Banana</h1>
+                <p class="text-gray-600 text-sm">Price: $10</p>
+              </div>
+
+              <h1 class="mt-2">Availavle Now</h1>
+            </div>
+          </div>
+
+          <div class="items-center ml-5 mt-6 mr-5">
+            <button class="px-20 py-4 bg-green-600 border rounded-md">
+              Add
+            </button>
+          </div>
+        </div>
+        <div class="border rounded-xl shadow-lg p-4 bg-white w-64">
+          <div class="text-center mb-4">
+            <h1 class="font-bold text-3xl text-pink-500">Your Cart</h1>
+          </div>
+
+          <div class="flex flex-col items-start">
+            <img
+              src="image.jpg"
+              alt="banana"
+              class="w-full h-24 object-cover mb-3"
+            />
+            <h1 class="font-semibold text-lg">Banana</h1>
+            <p class="text-gray-600 text-sm">Price: $10</p>
+          </div>
+          <div class="items-center ml-5 mt-5 mr-5">
+            <button class="px-20 py-4 bg-green-600 border rounded-md">
+              Add
+            </button>
+          </div>
+        </div>
+        <div class="border rounded-xl shadow-lg p-4 bg-white w-64">
+          <div class="text-center mb-4">
+            <h1 class="font-bold text-3xl text-pink-500">Your Cart</h1>
+          </div>
+
+          <div class="flex flex-col items-start">
+            <img
+              src="image.jpg"
+              alt="banana"
+              class="w-full h-24 object-cover mb-3"
+            />
+            <h1 class="font-semibold text-lg">Banana</h1>
+            <p class="text-gray-600 text-sm">Price: $10</p>
+          </div>
+          <div class="items-center ml-5 mt-5 mr-5">
+            <button class="px-20 py-4 bg-green-600 border rounded-md">
+              Add
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h1 class="font-bold text-blue-200 text-5xl mt-10 text-center">
+      Hero <span class="text-gray-300">Section</span>
+    </h1>
+    <div class="p-24">
+      <div
+        class="relative w-full h-[600px] rounded-3xl bg-cover bg-center bg-no-repeat opacity-80"
+        style="background-image: url('main_banner_bg.jpg')"
+      >
+        <div class="flex flex-col md:flex-row gap-10">
+          <div class="w-full h-full flex items-center justify-center">
+            <p class="text-9xl font-bold text-white">hello world</p>
+          </div>
+          <div>
+            <h1 class="text-6xl font-bold text-center pt-10 text-white">
+              Best in the world
+            </h1>
+            <div class="flex justify-center mt-10">
+              <button
+                class="bg-pink-500 text-white px-6 py-3 rounded-xl shadow-lg hover:bg-pink-600 transition"
+              >
+                Order Now
+              </button>
+            </div>
+            <p class="text-2xl text-center p-5 text-white font-semibold">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi
+              expedita natus iusto inventore sequi ipsum dolor est autem beatae
+              molestiae dolores eius facilis, quod similique. Amet iusto culpa
+              adipisci asperiores?
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flex justify-center items-center">
+      <button
+        class="bg-pink-500 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-pink-600 transition"
+      >
+        Click Me
+      </button>
+    </div>
+    <div class="flex justify-center gap-5 mt-10">
+      <div
+        class="w-64 bg-white dark:bg-gray-900 hover:translate-y-1 transition-all rounded-xl shadow-lg p-4"
+      >
+        <img
+          src="image.jpg"
+          class="w-full h-48 object-cover rounded-lg"
+          alt=""
+        />
+        <h3 class="text-lg font-bold mt-4">Product Name</h3>
+        <div class="flex items-center gap-2">
+          <span class="text-yellow-400">★★★★★</span>
+          <span class="text-sm text-gray-500">(120)</span>
+        </div>
+        <div class="flex justify-between items-center mt-4">
+          <span class="text-xl font-bold">$29</span>
+          <button
+            class="bg-pink-500 text-white px-4 py-2 rounded-lg hover:bg-pink-600 transition"
+          >
+            Add
+          </button>
+        </div>
+      </div>
+
+      <div class="w-64 bg-white dark:bg-gray-900 rounded-xl shadow-lg p-4">
+        <img
+          src="main_banner_bg.jpg"
+          class="w-full h-48 object-cover rounded-lg"
+          alt=""
+        />
+        <h3 class="text-lg font-bold mt-4">Product Name</h3>
+        <div class="flex items-center gap-2">
+          <span class="text-yellow-400">★★★★★</span>
+          <span class="text-sm text-gray-500">(120)</span>
+        </div>
+        <div class="flex justify-between items-center mt-4">
+          <span class="text-xl font-bold">$29</span>
+          <button
+            class="bg-pink-500 text-white px-4 py-2 rounded-lg hover:bg-pink-600 transition"
+          >
+            Add
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="w-full h-[600px] mt-10 border border-amber-400 rounded-xl shadow-lg shadow-amber-700 flex items-center justify-center bg-white"
+    >
+      <div class="w-[350px] border p-10 border-amber-400 mt-5 rounded-md shadow-2xl shadow-amber-500">
+        <p class="font-bold text-2xl text-center text-amber-800 pb-5">Login</p>
+        <form action="" class="space-y-4">
+          <!-- Label -->
+          <label for="email" class="block text-lg font-semibold text-gray-700"
+            >Enter your email</label
+          >
+
+          <!-- Input -->
+          <input
+            type="email"
+            id="email"
+            placeholder="Enter your email"
+            class="border border-amber-300 focus:border-amber-500 focus:ring-2 focus:ring-amber-400 rounded-lg px-4 py-2 w-72 text-gray-700 outline-none transition"
+          />
+
+          <!-- Label -->
+          <label
+            for="password"
+            class="block text-lg font-semibold text-gray-700"
+            >Enter your password</label
+          >
+
+          <!-- Input -->
+          <input
+            type="password"
+            id="password"
+            placeholder="Enter your password"
+            class="border border-amber-300 focus:border-amber-500 focus:ring-2 focus:ring-amber-400 rounded-lg px-4 py-2 w-72 text-gray-700 outline-none transition"
+          />
+          <div class="w-full flex justify-end items-center pt-10">
+            <button
+              type="submit"
+              class="px-4 py-2 bg-amber-500 text-white rounded-lg shadow-md hover:bg-amber-600 transition"
+            >
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+<div class="mt-10 text-center mb-10">
+    <button class="border border-pink-500 px-4 py-2 mr-4">Border</button>
+<button class="ring-2 ring-pink-500 px-4 py-2">Ring</button>
+<button class="bg-pink-500 text-white px-4 py-2 rounded focus:ring-4 focus:ring-pink-300">
+  Focus on me
+</button>
+</div>
+  </body>
+</html>

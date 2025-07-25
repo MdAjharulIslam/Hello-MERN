@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+     <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <nav
+      class="flex justify-between items-center md:flex-row gap-5 my-1 bg-gray-400 w-screen h-20"
+    >
+      <div
+        class="text-4xl text-green-800 hover:text-5xl hover:text-green-950 transition-all font-bold pl-5"
+      >
+        image
+      </div>
+      <ul class="flex transition-all justify-between mr-10 w-3/6 font-semibold">
+        <li>
+          <a href="/" class="hover:border p-2">home</a>
+        </li>
+        <li>
+          <a href="/about" class="hover:border p-2">About</a>
+        </li>
+        <li>
+          <a href="/project" class="hover:border p-2">projects</a>
+        </li>
+        <li>
+          <a
+            href="contact"
+            class="hover:border p-2 bg-red-500 hover:text-green-300 rounded-md"
+            >contact us</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+
+    <div class=" h-full flex w-full ">
+ <div class="bg-amber-700 w-1/3 h-[500px] text-center">
+    hello
+ </div>
+ <div class="bg-amber-500 w-full">
+    world
+ </div>
+    </div>
+
+
+     <div class="max-w-3xl mx-auto bg-white shadow-md rounded-lg p-6">
+      <h1 class="text-2xl font-bold mb-4">Your Cart</h1>
+
+      <!-- Cart Item -->
+      <div class="flex flex-col md:flex-row items-center justify-between gap-4 border-b pb-4 mb-4">
+        <!-- Image -->
+        <img
+          src="https://via.placeholder.com/100"
+          alt="Product Image"
+          class="w-24 h-24 object-cover rounded"
+        />
+
+        <!-- Product Info -->
+        <div class="flex-1 text-left">
+          <h2 class="text-xl font-semibold">Awesome Product</h2>
+          <p class="text-sm text-gray-600">Short product description here.</p>
+          <div class="mt-2 flex items-center gap-3">
+            <span class="text-green-600 font-semibold">$29.99</span>
+            <span class="text-gray-500 text-sm">Qty: 2</span>
+          </div>
+        </div>
+
+        <!-- Actions -->
+        <button class="bg-red-500 text-white px-3 py-1 rounded hover:bg-red-600">
+          Remove
+        </button>
+      </div>
+
+      <!-- Total -->
+      <div class="flex justify-between items-center">
+        <span class="text-lg font-medium">Total:</span>
+        <span class="text-2xl font-bold text-green-700">$59.98</span>
+      </div>
+    </div>
+  </body>
+</html>
