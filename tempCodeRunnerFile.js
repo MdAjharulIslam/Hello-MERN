@@ -1,1 +1,1 @@
-createPost();
+console.log(res.data)
