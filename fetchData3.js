@@ -17,7 +17,8 @@ axios.get("https://jsonplaceholder.typicode.com/posts")
 
 const user = {
     name : "ajharul ",
-    age : 23
+    age : 23, 
+    sex: "male"
 }
 
 axios.post("https://jsonplaceholder.typicode.com/posts", user,{
