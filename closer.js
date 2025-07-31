@@ -1,5 +1,5 @@
 
-
+// clouser example 
 function home (){
     let snack = "this is snack"
 
@@ -11,3 +11,4 @@ function home (){
 
 let kid = home()
 kid
+
