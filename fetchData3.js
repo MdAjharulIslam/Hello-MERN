@@ -47,6 +47,7 @@ const fetchData = async ()=>{
         setLoading(true)
         const {data} = await axios.post('https://jsonplaceholder.typicode.com/posts', user1)
         axios.defaults.headers.common['Authorization'] = `${token1}`
+        localStorage.setItem('token', token)
         if(data.success){
             console.log( "add data successfully", data)
             setLoading(false)
