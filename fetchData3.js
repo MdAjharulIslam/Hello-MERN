@@ -50,13 +50,17 @@ const fetchData = async ()=>{
         localStorage.setItem('token', token)
         if(data.success){
             console.log( "add data successfully", data)
-            setLoading(false)
+           
         }else{
             console.data(error.message);
         }
     } catch (error) {
         console.error(error.message)
-    }
+    }finally{  
+           setLoading(false)
+        }
+    
+    
 }
 
 useEffect(()=>{

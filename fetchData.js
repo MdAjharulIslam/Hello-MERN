@@ -65,6 +65,7 @@ const [token, setToken] = useState(null)
     useEffect(()=>{
  const { data } =  await  axios.post("https://jsonplaceholder.typicode.com/todos/1", user2)
     if(data.success){
+        setToken(data.token)
         axios.defaults.headers.common['Authorization'] = `${token}`
     setUser(null)
 }
