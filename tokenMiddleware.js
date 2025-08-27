@@ -34,4 +34,12 @@ next();
 }
 
 
+//in a router how we use middleware
+
+AuthRouter.post("/login", varifyToken, login)
+
+
+//in server.js file
+
+app.use("/api/user",AuthRouter);
 
