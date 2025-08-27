@@ -19,8 +19,10 @@ try {
         res.json({message: "password is in correct"} )
     }
 
-    res.json({message: "login successfully ", user})
-    res.send("connected")
+    const token = await jwt.sign({id:user._id}, process.env.JWT_SECRET, {expiresIn: "7d"})
+
+    res.json({message: "login successfully ",token, user})
+    
 } catch (error) {
     res.json({message: "internal code error", error})
 }
