@@ -59,5 +59,5 @@
 // const a="a";
 // const div = "ajhgarul"
 
-// console.log(typeof (div ));
+// console.log(typeof (div ))
 
