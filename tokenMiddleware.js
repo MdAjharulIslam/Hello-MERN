@@ -9,9 +9,10 @@ export const varifyToken = (req, res, next)=>{
     const token = req.headers.authorization;
 
     if(!token){
-       return res.json({success:false, message:"np token provided"})
+       return res.json({success:false, message:"no token provided"})
     }
 
+    //if i don't use bearer in frontend in headers authorization , i donot need split token
 const authToken = token.split(" ")[1]
 
 if(!authToken){
