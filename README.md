@@ -1,2 +1,2 @@
-   Hello MERN stack
+   Hello MERN Stack
  
