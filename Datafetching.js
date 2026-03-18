@@ -3,7 +3,7 @@
 // const object = {
 //   name: "ajharul",
 //   age: 23,
-// };
+// }
 
 // const FetchData = async () => {
 //   const data = await fetch("https://jsonplaceholder.typicode.com/posts");
