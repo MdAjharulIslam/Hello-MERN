@@ -7,7 +7,7 @@
 
 // const FetchData = async () => {
 //   const data = await fetch("https://jsonplaceholder.typicode.com/posts");
-//   const res = await data.json();
+//   const res = await data.json(); 
 //   res.map((dataa) => {
 //     console.log(dataa.body);
 //   });
