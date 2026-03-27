@@ -1,4 +1,4 @@
-// Array splice 
+// Array splice
 
 const array = [1, 2 , 4, 5 , 3]
 
